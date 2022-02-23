@@ -1,0 +1,171 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Unit6_Assignmnet_AccessingDatabase
+</name>
+</assembly>
+<members>
+<member name="T:Unit6_Assignmnet_AccessingDatabase.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Unit6_Assignmnet_AccessingDatabase.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Unit6_Assignmnet_AccessingDatabase.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSet.DaysDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSet.InstructorsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSet.MembersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSet.PaymentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSet.ScheduleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSet.DaysRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSet.InstructorsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSet.MembersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSet.PaymentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSet.ScheduleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSet.DaysRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSet.InstructorsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSet.MembersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSet.PaymentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSet.ScheduleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSetTableAdapters.DaysTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSetTableAdapters.InstructorsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSetTableAdapters.MembersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSetTableAdapters.PaymentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSetTableAdapters.ScheduleTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Unit6_Assignmnet_AccessingDatabase._Karate_1DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Unit6_Assignmnet_AccessingDatabase._Karate_1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Unit6_Assignmnet_AccessingDatabase._Karate_1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSetTableAdapters.TableAdapterManager.UpdateAll(Unit6_Assignmnet_AccessingDatabase._Karate_1DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Unit6_Assignmnet_AccessingDatabase._Karate_1DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
