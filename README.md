@@ -1,2 +1,2 @@
-# Acc_DB
+# Access_DataBase
 A program that uses the Members table of the Karate database. Let the user type in a date (or for an extra challenge have the user select a date from a DateTimePicker control) . The program must display the first and last names, the phone numbers, and dates joined of all members who joined before the selected date. Use a parameterized query to retrieve the matching table rows and display them in a DataGridView control.
